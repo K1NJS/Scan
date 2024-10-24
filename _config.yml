@@ -36,8 +36,12 @@ features                                  :
     description                           : Bring up the scanned file for review.
     fontawesome_icon_name                 : mobile
     
+ - title                                  : County Truss Website
+    description                           : Visit the County Truss Website.
+    fontawesome_icon_name                 : external-link-alt
+    link                                  : https://www.countytruss.com
 
-
+    
 # Theme Settings
 topbar_color                              : "#000000"
 topbar_transparency                       : 0.1
