@@ -38,7 +38,7 @@ features                                  :
     
  - title                                  : County Truss Website
     description                           : Visit the County Truss Website.
-    fontawesome_icon_name                 : external-link-alt
+    fontawesome_icon_name                 : mobile
     link                                  : https://www.countytruss.com
 
     
