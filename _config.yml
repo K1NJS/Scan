@@ -1,88 +1,70 @@
-#page title
-page_title                                : County Truss - Job Scanner                                       # Automatically populates with app name if not set and if iOS app ID is set. Otherwise enter manually.
+# Page Title
+page_title: County Truss - Job Scanner  # Automatically populates with app name if not set and if iOS app ID is set. Otherwise, enter manually.
 
 # App Info
-ios_app_id                                : 6737247615                                # Required. Enter iOS app ID to automatically populate name, price and icons (e.g. 718043190).
-ios_app_country                           : us                                        # Required outside USA. Enter 2 letter country code as in https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2
+ios_app_id: 6737247615  # Required. Enter iOS app ID to automatically populate name, price, and icons (e.g., 718043190).
+ios_app_country: us  # Required outside the USA. Enter 2-letter country code as in https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2.
 
-appstore_link                             :                                           # Automatically populates if not set and if iOS app ID is set. Otherwise enter manually.
-                                                                                      # Or upload your press kit file to assets and set path accordingly (e.g. "assets/your_press_kit.zip").
+appstore_link:  
+app_icon: assets/appicon.png  # Automatically populates if not set and if iOS app ID is set. Otherwise, enter path to icon file manually.
+app_name: County Truss - Job Scanner  # Automatically populates if not set and if iOS app ID is set. Otherwise, enter manually.
+#app_price:  # Automatically populates if not set and if iOS app ID is set. Otherwise, enter manually.
+app_description: Scan documents and keep them organized.
 
-app_icon                                  : assets/appicon.png                      # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
-app_name                                  : County Truss - Job Scanner                                          # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
-#app_price                                 :                                          # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
-app_description                           : Scan documents and keep organized.
-
-enable_smart_app_banner                   : true                                      # Set to true to show a smart app banner at top of page on mobile devices.
-
-
+enable_smart_app_banner: true  # Set to true to show a smart app banner at the top of the page on mobile devices.
 
 # Information About Yourself
-your_name                                 : John S                                
+your_name: John S
 
+# Feature List
+features:
 
-# Feature List                            Edit, add or remove features to be presented.
-features                                  :
-
-  - title                                 : Scan
-    description                           : Scan documents and save them as jpg.
-    fontawesome_icon_name                 : mobile
+  - title: Scan
+    description: Scan documents and save them as JPG.
+    fontawesome_icon_name: mobile
     
-  - title                                 : Create Folders & Organize
-    description                           : Enter a name to create a folder or scan a document.
-    fontawesome_icon_name                 : mobile
-
-  - title                                 : Review
-    description                           : Bring up the scanned file for review.
-    fontawesome_icon_name                 : mobile
+  - title: Create Folders & Organize
+    description: Enter a name to create a folder or scan a document.
+    fontawesome_icon_name: folder
     
- - title                                  : County Truss Website
-    description                           : Visit the County Truss Website.
-    fontawesome_icon_name                 : mobile
-    link                                  : https://www.countytruss.com
-
+  - title: Review
+    description: Bring up the scanned file for review.
+    fontawesome_icon_name: eye
     
+  - title: County Truss Website
+    description: Visit the County Truss Website for more information.
+    fontawesome_icon_name: external-link-alt
+    link: https://www.countytrusswebsite.com
+
 # Theme Settings
-topbar_color                              : "#000000"
-topbar_transparency                       : 0.1
-topbar_title_color                        : "#ffffff"
+topbar_color: "#000000"
+topbar_transparency: 0.1
+topbar_title_color: "#ffffff"
 
-cover_image                               : assets/headerimage.png                    # Replace with alternative image path or image URL.
-cover_overlay_color                       : "#363b3d"
-cover_overlay_transparency                : 0.8
+cover_image: assets/headerimage.png  # Replace with an alternative image path or image URL.
+cover_overlay_color: "#363b3d"
+cover_overlay_transparency: 0.8
 
-device_color                              : black                                     # Set to: blue, black, yellow, coral or white.
+device_color: black  # Set to: blue, black, yellow, coral, or white.
 
-body_background_color                     : "#ffffff"
+body_background_color: "#ffffff"
 
-link_color                                : "#1d63ea"
+link_color: "#1d63ea"
 
-app_title_color                           : "#ffffff"
-app_price_color                           : "#ffffff"
-app_description_color                     : "#ffffff"
+app_title_color: "#ffffff"
+app_price_color: "#ffffff"
+app_description_color: "#ffffff"
 
-feature_title_color                       : "#000000"
-feature_text_color                        : "#666666"
+feature_title_color: "#000000"
+feature_text_color: "#666666"
 
-feature_icons_foreground_color            : "#1d63ea"
-feature_icons_background_color            : "#e6e6e6"
+feature_icons_foreground_color: "#1d63ea"
+feature_icons_background_color: "#e6e6e6"
 
-social_icons_foreground_color             : "#666666"
-social_icons_background_color             : "#e6e6e6"
+social_icons_foreground_color: "#666666"
+social_icons_background_color: "#e6e6e6"
 
-footer_text_color                         : "#666666"
-
-
-
-
-
-
-
-
-
-
-
-
+footer_text_color: "#666666"
 
 ####################################################
 ### Jekyll Configuration. No need to touch this. ###
