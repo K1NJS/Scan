@@ -30,11 +30,6 @@ features:
   - title: Review
     description: Bring up the scanned file for review.
     fontawesome_icon_name: eye
-    
-  - title: County Truss Website
-    description: Visit the County Truss Website for more information.
-    fontawesome_icon_name: external-link-alt
-    link: https://www.countytrusswebsite.com
 
 # Theme Settings
 topbar_color: "#000000"
